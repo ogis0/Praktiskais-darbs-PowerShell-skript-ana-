@@ -1,1 +1,0 @@
-# Praktiskais-darbs-PowerShell-skript-ana-
