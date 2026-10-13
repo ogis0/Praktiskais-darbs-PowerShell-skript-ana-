@@ -1,0 +1,1 @@
+Get-Process | Sort-Object WorkingSet64 -Descending | Select-Object -First 10 | Sort-Object WorkingSet64 | Select-Object Name, Id, @{Name='Atmiņa_MB'; Expression={[math]::Round($_.WorkingSet64/1MB,1)}}
